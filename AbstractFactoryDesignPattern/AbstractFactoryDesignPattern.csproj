@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\VAIBHAV\source\repos\AbstractFactoryDesignPattern\AbstractFactoryDesignPattern\.editorconfig" />
+  </ItemGroup>
+
 </Project>
