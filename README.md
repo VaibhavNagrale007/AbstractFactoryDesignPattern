@@ -20,7 +20,7 @@ The Abstract Factory Design Pattern is a creational design pattern that provides
 
 6. **Unit Tests (AbstractFactoryTests):**
 - Tests the functionality of the abstract factory pattern.
-- Check if the factories create the expected types of shapes.
+- Check if the factories create the expected types of shapes and colors.
 
 # Environment
 - **Visual Studio 2022:** The integrated development environment (IDE) used for creating, editing, building, and running C# projects.
