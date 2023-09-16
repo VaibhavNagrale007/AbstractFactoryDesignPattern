@@ -1,8 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/******************************************************************************
+ * Filename    = IShape.cs
+ *
+ * Author      = Vaibhav Nagrale
+ *
+ * Product     = AbstractFactoryDesignPattern
+ * 
+ * Project     = AbstractFactoryDesignPattern
+ *
+ * Description = Interface for defining shape-related operations.
+ *****************************************************************************/
 
 namespace AbstractFactoryDesignPattern.ShapeUtility
 {
@@ -11,6 +17,9 @@ namespace AbstractFactoryDesignPattern.ShapeUtility
     /// </summary>
     public interface IShape
     {
+        /// <summary>
+        /// Draws the shape.
+        /// </summary>
         void Draw();
     }
 }

@@ -1,10 +1,17 @@
-﻿using AbstractFactoryDesignPattern.ColorUtility;
+﻿/******************************************************************************
+ * Filename    = ColorFactory.cs
+ *
+ * Author      = Vaibhav Nagrale
+ *
+ * Product     = AbstractFactoryDesignPattern
+ * 
+ * Project     = AbstractFactoryDesignPattern
+ *
+ * Description = Concrete factory class for creating color objects.
+ *****************************************************************************/
+
+using AbstractFactoryDesignPattern.ColorUtility;
 using AbstractFactoryDesignPattern.ShapeUtility;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.Factory
 {
@@ -13,10 +20,21 @@ namespace AbstractFactoryDesignPattern.Factory
     /// </summary>
     public class ColorFactory : AbstractFactory
     {
+        /// <summary>
+        /// Override GetShape
+        /// </summary>
+        /// <param name="shape">The type of shape to create.</param>
+        /// <returns>Null as we are inside ColorFactory.</returns>
         public override IShape GetShape(string shapeType)
         {
             return null;
         }
+
+        /// <summary>
+        /// Override GetColor
+        /// </summary>
+        /// <param name="shape">The type of shape to create.</param>
+        /// <returns>A concrete color object.</returns>
         public override IColor GetColor(string color)
         {
             IColor obj = null;

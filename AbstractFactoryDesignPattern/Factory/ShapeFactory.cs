@@ -1,9 +1,16 @@
-﻿using AbstractFactoryDesignPattern.ShapeUtility;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/******************************************************************************
+ * Filename    = ShapeFactory.cs
+ *
+ * Author      = Vaibhav Nagrale
+ *
+ * Product     = AbstractFactoryDesignPattern
+ * 
+ * Project     = AbstractFactoryDesignPattern
+ *
+ * Description = Concrete factory class for creating shape objects.
+ *****************************************************************************/
+
+using AbstractFactoryDesignPattern.ShapeUtility;
 using AbstractFactoryDesignPattern.ColorUtility;
 
 namespace AbstractFactoryDesignPattern.Factory
@@ -13,6 +20,11 @@ namespace AbstractFactoryDesignPattern.Factory
     /// </summary>
     public class ShapeFactory : AbstractFactory
     {
+        /// <summary>
+        /// Override GetShape
+        /// </summary>
+        /// <param name="shape">The type of shape to create.</param>
+        /// <returns>A concrete shape object.</returns>
         public override IShape GetShape(string shapeType)
         {
             IShape obj = null;
@@ -36,6 +48,12 @@ namespace AbstractFactoryDesignPattern.Factory
 
             return obj;
         }
+
+        /// <summary>
+        /// Override GetColor
+        /// </summary>
+        /// <param name="shape">The type of shape to create.</param>
+        /// <returns>Null as we are inside ShapeFactory..</returns>
         public override IColor GetColor(string color)
         {
             return null;

@@ -1,8 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/******************************************************************************
+ * Filename    = Circle.cs
+ *
+ * Author      = Vaibhav Nagrale
+ *
+ * Product     = AbstractFactoryDesignPattern
+ * 
+ * Project     = AbstractFactoryDesignPattern
+ *
+ * Description = Concrete implementation of the IShape interface for Circle shape.
+ *****************************************************************************/
 
 namespace AbstractFactoryDesignPattern.ShapeUtility
 {
@@ -11,6 +17,9 @@ namespace AbstractFactoryDesignPattern.ShapeUtility
     /// </summary>
     public class Circle : IShape
     {
+        /// <summary>
+        /// Prints when Circle Draw Method is called.
+        /// </summary>
         public void Draw()
         {
             Console.WriteLine("Inside Circle Draw Method.");

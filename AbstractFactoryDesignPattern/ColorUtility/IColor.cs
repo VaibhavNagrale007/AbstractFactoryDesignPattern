@@ -1,8 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/******************************************************************************
+ * Filename    = IColor.cs
+ *
+ * Author      = Vaibhav Nagrale
+ *
+ * Product     = AbstractFactoryDesignPattern
+ * 
+ * Project     = AbstractFactoryDesignPattern
+ *
+ * Description = Interface for defining color-related operations.
+ *****************************************************************************/
 
 namespace AbstractFactoryDesignPattern.ColorUtility
 {
@@ -11,6 +17,9 @@ namespace AbstractFactoryDesignPattern.ColorUtility
     /// </summary>
     public interface IColor
     {
+        /// <summary>
+        /// Fills an object with the color.
+        /// </summary>
         void Fill();
     }
 }

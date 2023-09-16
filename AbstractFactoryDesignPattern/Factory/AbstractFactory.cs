@@ -1,10 +1,17 @@
-﻿using AbstractFactoryDesignPattern.ColorUtility;
+﻿/******************************************************************************
+ * Filename    = AbstractFactory.cs
+ *
+ * Author      = Vaibhav Nagrale
+ *
+ * Product     = AbstractFactoryDesignPattern
+ * 
+ * Project     = AbstractFactoryDesignPattern
+ *
+ * Description = Abstract factory class defining methods for creating shapes and colors.
+ *****************************************************************************/
+
+using AbstractFactoryDesignPattern.ColorUtility;
 using AbstractFactoryDesignPattern.ShapeUtility;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.Factory
 {
