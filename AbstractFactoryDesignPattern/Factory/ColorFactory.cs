@@ -8,13 +8,16 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.Factory
 {
+    /// <summary>
+    /// Concrete factory class for creating color objects.
+    /// </summary>
     public class ColorFactory : AbstractFactory
     {
-        public override IShape getShape(string shapeType)
+        public override IShape GetShape(string shapeType)
         {
             return null;
         }
-        public override IColor getColor(string color)
+        public override IColor GetColor(string color)
         {
             IColor obj = null;
 

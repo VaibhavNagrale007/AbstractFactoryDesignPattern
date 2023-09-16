@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.ShapeUtility
 {
+    /// <summary>
+    /// Concrete implementation of the IShape interface for Rectangle shape.
+    /// </summary>
     public class Rectangle : IShape
     {
         public void Draw()

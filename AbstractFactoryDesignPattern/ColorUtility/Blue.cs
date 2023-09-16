@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.ColorUtility
 {
+    /// <summary>
+    /// Concrete implementation of the IColor interface for Blue color.
+    /// </summary>
     public class Blue : IColor
     {
         public void Fill()

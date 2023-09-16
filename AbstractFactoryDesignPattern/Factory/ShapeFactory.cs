@@ -8,9 +8,12 @@ using AbstractFactoryDesignPattern.ColorUtility;
 
 namespace AbstractFactoryDesignPattern.Factory
 {
+    /// <summary>
+    /// Concrete factory class for creating shape objects.
+    /// </summary>
     public class ShapeFactory : AbstractFactory
     {
-        public override IShape getShape(string shapeType)
+        public override IShape GetShape(string shapeType)
         {
             IShape obj = null;
 
@@ -33,7 +36,7 @@ namespace AbstractFactoryDesignPattern.Factory
 
             return obj;
         }
-        public override IColor getColor(string color)
+        public override IColor GetColor(string color)
         {
             return null;
         }

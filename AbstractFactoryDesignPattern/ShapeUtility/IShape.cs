@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.ShapeUtility
 {
+    /// <summary>
+    /// Interface for defining shape-related operations.
+    /// </summary>
     public interface IShape
     {
         void Draw();

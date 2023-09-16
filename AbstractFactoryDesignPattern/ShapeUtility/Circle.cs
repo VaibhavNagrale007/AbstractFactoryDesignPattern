@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.ShapeUtility
 {
+    /// <summary>
+    /// Concrete implementation of the IShape interface for Circle shape.
+    /// </summary>
     public class Circle : IShape
     {
         public void Draw()

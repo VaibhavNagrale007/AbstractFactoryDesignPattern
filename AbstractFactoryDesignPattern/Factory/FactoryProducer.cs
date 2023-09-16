@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.Factory
 {
+    /// <summary>
+    /// Factory class for producing shape and color factories.
+    /// </summary>
     public class FactoryProducer
     {
+        /// <summary>
+        /// Gets a factory instance based on the provided choice.
+        /// </summary>
+        /// <param name="choice">The choice of factory to create.</param>
+        /// <returns>An abstract factory instance.</returns>
         public static AbstractFactory getFactory(string choice)
         {
             AbstractFactory obj = null;

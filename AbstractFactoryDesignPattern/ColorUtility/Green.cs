@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.ColorUtility
 {
+    /// <summary>
+    /// Concrete implementation of the IColor interface for Green color.
+    /// </summary>
     public class Green : IColor
     {
         public void Fill()

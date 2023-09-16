@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.ColorUtility
 {
+    /// <summary>
+    /// Interface for defining color-related operations.
+    /// </summary>
     public interface IColor
     {
         void Fill();

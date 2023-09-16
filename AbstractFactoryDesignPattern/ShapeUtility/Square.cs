@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.ShapeUtility
 {
+
+    /// <summary>
+    /// Concrete implementation of the IShape interface for Square shape.
+    /// </summary>
     public class Square : IShape
     {
         public void Draw()

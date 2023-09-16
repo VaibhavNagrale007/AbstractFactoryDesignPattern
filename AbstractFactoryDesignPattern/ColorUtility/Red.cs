@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryDesignPattern.ColorUtility
 {
+    /// <summary>
+    /// Concrete implementation of the IColor interface for Red color.
+    /// </summary>
     public class Red : IColor
     {
         public void Fill()
